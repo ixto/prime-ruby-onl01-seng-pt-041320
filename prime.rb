@@ -16,6 +16,7 @@ def prime?(integers)
    end
  else
    false 
+ end
 end
 
 
