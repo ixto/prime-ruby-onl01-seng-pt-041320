@@ -11,7 +11,7 @@ prime?(1)
 def prime?(integer)
  array = (2..int-1)
  if int > 1
-   
+   array.each do |integer|
 end
 
 
