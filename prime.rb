@@ -8,7 +8,7 @@
 
 # prime?(1)
 
-def prime?(integers)
+def prime?(int)
  array = (2..int-1)
  if int > 1
    array.none? do |integer|
