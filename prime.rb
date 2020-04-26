@@ -1,17 +1,21 @@
 # Add  code here!
-require 'prime'
+# require 'prime'
 
-def prime?(integer)
+# def prime?(integer)
  
-end
+# end
 
 
-prime?(1)
+# prime?(1)
 
-def prime?(integer)
+def prime?(integers)
  array = (2..int-1)
  if int > 1
-   array.each do |integer|
+   array.none? do |integer|
+     int % integer == 0 
+   end
+ else
+   false 
 end
 
 
