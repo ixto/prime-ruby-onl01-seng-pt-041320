@@ -11,6 +11,7 @@ prime?(1)
 def prime?(integer)
  array = (2..int-1)
  if int > 1
+   
 end
 
 
